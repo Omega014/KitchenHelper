@@ -1,0 +1,115 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "WebView",
+        "attributes" : {
+          "class" : "WebView",
+          "name" : "webview",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "uuid" : "44161BCA-FB75-42DD-BBB4-397CD62DCE3A",
+          "scales_to_fit" : true,
+          "flex" : "WH"
+        },
+        "frame" : "{{147, 19}, {861, 734}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "F1951A19-A0FF-4086-BBBE-28D7DC98FC2A",
+          "font_bold" : true,
+          "name" : "365_kitchen",
+          "action" : "self.kitchen",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "background_color" : "RGBA(0.879717,0.449633,0.234591,1.000000)",
+          "title" : "365 Kitchen"
+        },
+        "frame" : "{{18, 19}, {113, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "58F5FA1E-20F2-4B94-B46D-9F0E21C9D058",
+          "font_bold" : true,
+          "name" : "cookpad",
+          "action" : "self.cookpad",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "background_color" : "RGBA(0.891509,0.713208,0.356604,1.000000)",
+          "title" : "CookPad"
+        },
+        "frame" : "{{18, 89}, {113, 49}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "foodgawker",
+          "font_bold" : true,
+          "name" : "foodgawker",
+          "action" : "self.foodgawker",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "background_color" : "RGBA(0.511792,0.511792,0.511792,1.000000)",
+          "uuid" : "B3DA2890-A3E2-41F1-8A04-3F47D680D21D"
+        },
+        "frame" : "{{18, 161}, {113, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "font_size" : 15,
+          "title" : "チラシ",
+          "tint_color" : "RGBA(0.007075,0.007075,0.007075,1.000000)",
+          "action" : "self.paper",
+          "font_bold" : true,
+          "name" : "button1",
+          "corner_radius" : 0,
+          "uuid" : "8DCE2744-11BB-408E-92F4-107977C4A2AC",
+          "border_width" : 1,
+          "class" : "Button"
+        },
+        "frame" : "{{18, 446}, {113, 47}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
