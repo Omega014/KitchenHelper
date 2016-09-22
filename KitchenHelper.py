@@ -19,17 +19,17 @@ class KitchenHelper(object):
         self.view.right_button_items = [home]
         # webview
         self.webview = self.view['webview']
-        # TOP View
+        # open top page
         self.bt_home(None)
+
+    def bt_home(self, sender):
+        self.webview.load_url('http://google.com')
 
     def bt_back(self, sender):
         self.webview.go_back()
         
     def bt_forward(self, sender):
         self.webview.go_forward()
-
-    def bt_home(self, sender):
-        self.webview.load_url('http://google.com')
 
     def kitchen(self, sender):
         self.webview.load_url('http://365kitchen.net/')
@@ -41,7 +41,7 @@ class KitchenHelper(object):
         self.webview.load_url('https://foodgawker.com/')
 
     def paper(self, sender):
-    self.webview.load_url('http://www.shufoo.net/pntweb/shopDetail/264231/')
+        self.webview.load_url('http://www.shufoo.net/pntweb/shopDetail/264231/')
 
 
 KitchenHelper()
